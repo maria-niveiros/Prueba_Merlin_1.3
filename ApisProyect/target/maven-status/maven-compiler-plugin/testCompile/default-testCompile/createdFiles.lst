@@ -1,0 +1,12 @@
+Data\Factory\Tags.class
+Data\Builder\User\RegisterUserRequestBuilder.class
+Data\Model\Pet\PetResponse.class
+Data\Model\User\RegisterUserRequest.class
+Tests\AABase\BaseTest.class
+Data\Factory\Pet.class
+Tests\AUserTests\BUserTests.class
+Model\BaseTest.class
+Data\Factory\Category.class
+Tests\AUserTests\ARegisterTests.class
+Data\Factory\User.class
+Tests\BPetTests\APetTests.class

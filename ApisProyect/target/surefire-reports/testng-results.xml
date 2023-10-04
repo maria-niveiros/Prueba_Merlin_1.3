@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-04T02:20:00 ART" name="Surefire suite" finished-at="2023-10-04T02:20:17 ART" duration-ms="16934">
+    <groups>
+    </groups>
+    <test started-at="2023-10-04T02:20:00 ART" name="Surefire test" finished-at="2023-10-04T02:20:17 ART" duration-ms="16934">
+      <class name="Tests.AUserTests.ARegisterTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AUserTests.ARegisterTests@2228db21]" started-at="2023-10-04T02:20:00 ART" name="setUp" finished-at="2023-10-04T02:20:02 ART" duration-ms="1829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerOk()[pri:1, instance:Tests.AUserTests.ARegisterTests@2228db21]" started-at="2023-10-04T02:20:02 ART" name="registerOk" finished-at="2023-10-04T02:20:08 ART" duration-ms="5880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerOk -->
+        <test-method signature="registerHeaders()[pri:2, instance:Tests.AUserTests.ARegisterTests@2228db21]" started-at="2023-10-04T02:20:08 ART" name="registerHeaders" finished-at="2023-10-04T02:20:09 ART" duration-ms="1083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerHeaders -->
+        <test-method signature="registerOkContentType()[pri:3, instance:Tests.AUserTests.ARegisterTests@2228db21]" started-at="2023-10-04T02:20:09 ART" name="registerOkContentType" finished-at="2023-10-04T02:20:10 ART" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerOkContentType -->
+      </class> <!-- Tests.AUserTests.ARegisterTests -->
+      <class name="Tests.BPetTests.APetTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.BPetTests.APetTests@4f7c0be3]" started-at="2023-10-04T02:20:13 ART" name="setUp" finished-at="2023-10-04T02:20:13 ART" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="httpStatus200OnGetUserByUsername()[pri:1, instance:Tests.BPetTests.APetTests@4f7c0be3]" started-at="2023-10-04T02:20:13 ART" name="httpStatus200OnGetUserByUsername" finished-at="2023-10-04T02:20:14 ART" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- httpStatus200OnGetUserByUsername -->
+        <test-method signature="getASoldPetsList()[pri:2, instance:Tests.BPetTests.APetTests@4f7c0be3]" started-at="2023-10-04T02:20:14 ART" name="getASoldPetsList" finished-at="2023-10-04T02:20:16 ART" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getASoldPetsList -->
+        <test-method signature="getASoldPetsQuantityByName()[pri:3, instance:Tests.BPetTests.APetTests@4f7c0be3]" started-at="2023-10-04T02:20:16 ART" name="getASoldPetsQuantityByName" finished-at="2023-10-04T02:20:17 ART" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getASoldPetsQuantityByName -->
+      </class> <!-- Tests.BPetTests.APetTests -->
+      <class name="Tests.AUserTests.BUserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AUserTests.BUserTests@4bf324f9]" started-at="2023-10-04T02:20:10 ART" name="setUp" finished-at="2023-10-04T02:20:10 ART" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="httpStatus200OnGetUserByUsername()[pri:1, instance:Tests.AUserTests.BUserTests@4bf324f9]" started-at="2023-10-04T02:20:10 ART" name="httpStatus200OnGetUserByUsername" finished-at="2023-10-04T02:20:11 ART" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- httpStatus200OnGetUserByUsername -->
+        <test-method signature="OnGetUserByIdWithWrongUsername()[pri:2, instance:Tests.AUserTests.BUserTests@4bf324f9]" started-at="2023-10-04T02:20:11 ART" name="OnGetUserByIdWithWrongUsername" finished-at="2023-10-04T02:20:12 ART" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnGetUserByIdWithWrongUsername -->
+        <test-method signature="putUserByUsername()[pri:3, instance:Tests.AUserTests.BUserTests@4bf324f9]" started-at="2023-10-04T02:20:12 ART" name="putUserByUsername" finished-at="2023-10-04T02:20:12 ART" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUserByUsername -->
+        <test-method signature="deleteUser()[pri:4, instance:Tests.AUserTests.BUserTests@4bf324f9]" started-at="2023-10-04T02:20:12 ART" name="deleteUser" finished-at="2023-10-04T02:20:13 ART" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- Tests.AUserTests.BUserTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
